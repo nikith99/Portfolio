@@ -6,6 +6,6 @@ interface ClientWrapperProps {
   children: ReactNode;
 }
 
-export const ClientWrapper = ({ children }: ClientWrapperProps) => {
+export function ClientWrapper({ children }: ClientWrapperProps) {
   return <>{children}</>;
-}; 
+} 
