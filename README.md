@@ -100,15 +100,6 @@ vercel
 vercel --prod
 ```
 
-## 🔧 Environment Variables
-
-Create a `.env.local` file in the root directory with the following variables:
-```env
-NEXT_PUBLIC_EMAIL_SERVICE=your_email_service
-NEXT_PUBLIC_EMAIL_TEMPLATE=your_template_id
-NEXT_PUBLIC_EMAIL_PUBLIC_KEY=your_public_key
-```
-
 ## 🎨 Customization
 
 - Colors and theme: Edit `tailwind.config.js`
@@ -122,7 +113,6 @@ NEXT_PUBLIC_EMAIL_PUBLIC_KEY=your_public_key
 - Tailwind CSS
 - Framer Motion
 - React Icons
-- EmailJS
 
 ## 📄 License
 
