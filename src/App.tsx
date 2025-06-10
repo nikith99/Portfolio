@@ -9,12 +9,7 @@ import Footer from "@/components/sections/Footer";
 
 function App() {
   return (
-    <ThemeProvider
-      attribute="class"
-      defaultTheme="system"
-      enableSystem
-      disableTransitionOnChange
-    >
+    <ThemeProvider>
       <div className="min-h-screen bg-gradient-to-b from-background via-background/90 to-background">
         <div className="fixed inset-0 bg-grid-white/[0.02] bg-[size:50px_50px] pointer-events-none" />
         <Navbar />
