@@ -8,10 +8,10 @@ import { ClientWrapper } from "@/components/ClientWrapper";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background via-background/90 to-background">
+    <div className="min-h-screen bg-gradient-to-b from-background via-background/90 to-background overflow-x-hidden">
       <div className="fixed inset-0 bg-grid-white/[0.02] bg-[size:50px_50px] pointer-events-none" />
       <Navbar />
-      <main>
+      <main className="overflow-x-hidden">
         <ClientWrapper>
           <Hero />
           <About />

@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 
 export function Contact() {
   return (
-    <section id="contact" className="container mx-auto px-4 py-8 md:py-6">
-      <div className="flex flex-col items-center gap-8 text-center">
+    <section id="contact" className="container mx-auto px-4 py-8 md:py-6 w-full overflow-x-hidden">
+      <div className="flex flex-col items-center gap-8 text-center w-full max-w-[100vw]">
         <h2 className="text-3xl font-bold md:text-4xl">Get in Touch</h2>
         <p className="mx-auto max-w-md text-base text-muted-foreground md:max-w-2xl md:text-lg">
           Thanks for taking the time to look at my portfolio! Feel free to reach

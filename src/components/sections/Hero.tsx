@@ -10,7 +10,7 @@ function Hero() {
   const { theme } = useTheme();
 
   return (
-    <section id="home" className="relative min-h-screen">
+    <section id="home" className="relative min-h-screen w-full overflow-x-hidden">
       <Particles
         className="absolute inset-0 z-10 pointer-events-auto"
         quantity={100}
@@ -20,8 +20,8 @@ function Hero() {
         }
         refresh={false}
       />
-      <div className="animate-fadeIn relative z-20 flex min-h-screen flex-col items-center justify-center px-4 text-center">
-        <div className="mb-10 mt-4 md:mt-6">
+      <div className="animate-fadeIn relative z-20 flex min-h-screen flex-col items-center justify-center px-4 text-center w-full">
+        <div className="mb-10 mt-4 md:mt-6 w-full max-w-[100vw]">
           <div className="px-2">
             <div className="relative mx-auto h-full max-w-7xl rounded-lg border-2 border-border/20 bg-transparent p-6 backdrop-blur-[1px] hover:border-border/30 transition-colors duration-300 md:px-12 md:py-20">
               <h1 className="flex select-none flex-col px-3 py-2 text-center text-5xl font-semibold leading-none tracking-tight md:flex-col md:text-8xl lg:flex-row lg:text-8xl">

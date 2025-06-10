@@ -16,8 +16,8 @@ import { projectsData } from "@/data/projects";
 
 const Projects = () => {
   return (
-    <section id="projects" className="relative py-20">
-      <div className="container mx-auto px-4">
+    <section id="projects" className="relative py-20 w-full overflow-x-hidden">
+      <div className="container mx-auto px-4 w-full max-w-[100vw]">
         <h2 className="mb-8 text-center text-3xl font-bold">My Projects</h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projectsData.projects.map((project, index) => (

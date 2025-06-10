@@ -38,9 +38,9 @@ const About = () => {
   >("experience");
 
   return (
-    <section id="about" className="relative py-20">
+    <section id="about" className="relative py-20 w-full overflow-x-hidden">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(45%_45%_at_50%_50%,var(--tw-gradient-from)_0%,var(--tw-gradient-to)_100%)] from-purple-900/20 to-transparent dark:from-purple-900/40" />
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 w-full max-w-[100vw]">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
