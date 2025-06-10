@@ -114,9 +114,6 @@ vercel --prod
 - Framer Motion
 - React Icons
 
-## 📄 License
-
-MIT License - feel free to use this template for your personal portfolio!
 
 ## 🤝 Contributing
 
