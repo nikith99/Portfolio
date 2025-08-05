@@ -22,8 +22,9 @@ export const aboutData = {
   introduction: {
     // Add or remove paragraphs as needed
     paragraphs: [
-      "I am a passionate Full Stack Developer with expertise in building modern web applications. With a strong foundation in both front-end and back-end technologies, I specialize in creating scalable and efficient solutions that deliver exceptional user experiences.",
-      "My approach combines technical expertise with a keen eye for detail, ensuring that every project I work on is not only functional but also maintainable and future-proof. I'm constantly learning and adapting to new technologies to stay at the forefront of web development."
+      "I’m a seasoned UI/UX Developer with over 9 years of experience designing and developing responsive, accessible, and scalable web interfaces. With a solid background in frontend technologies like HTML5, CSS3, JavaScript, ReactJS, AngularJS, and TypeScript, I specialize in building user-centric applications for banking, healthcare, and telecom industries.",
+      "My development approach blends technical precision with design thinking—ensuring every interface is not just visually polished but also WCAG-compliant, performance-optimized, and maintainable. I’ve led key UI transformations for enterprise platforms at Bank of America, Cummins, BCBS, and AT&T, integrating real-time data with secure REST APIs and collaborating across Agile teams.",
+      "Driven by a passion for seamless user experiences and scalable architectures, I continuously evolve my skillset to align with modern web standards and accessibility guidelines. Whether modernizing legacy UIs or developing greenfield projects, I bring a balance of engineering rigor, design collaboration, and user-first thinking to every project I take on."
     ],
     // Your collaboration message - feel free to modify this text
     collaboration: "I'm always excited to collaborate on interesting projects and share knowledge with the developer community. Whether it's building new features, optimizing performance, or solving complex problems, I'm ready to contribute my skills and learn from others."
@@ -36,17 +37,21 @@ export const aboutData = {
   highlights: {
     // Recent professional achievements
     recent: [
-      "Developed and maintained multiple full-stack applications using React, Node.js, and modern web technologies",
-      "Implemented responsive designs and optimized front-end performance for better user experience",
-      "Built RESTful APIs and integrated various third-party services",
-      "Collaborated with cross-functional teams to deliver high-quality software solutions"
+      "Developed scalable and WCAG-compliant UI components using ReactJS, AngularJS, and TypeScript for enterprise banking, healthcare, and telecom platforms.",
+      "Built responsive, cross-browser layouts with CSS Grid, Flexbox, and SASS, ensuring seamless UX across web and mobile interfaces.",
+      "Integrated secure RESTful APIs using JavaScript, Axios, and Fetch for real-time financial, claims, and equipment data updates.",
+      "Refactored legacy UI systems into modern, component-based architectures using ReactJS and TypeScript to boost maintainability and performance.",
+      "Collaborated with cross-functional Agile teams using JIRA to deliver user-centric features on time, tracking sprints and resolving UI bugs.",
+      "Ensured accessibility compliance (WCAG 2.1) by embedding semantic HTML, ARIA roles, and screen-reader-friendly design patterns.",
+      "Developed dynamic, data-driven forms and dashboards for applications like loan portals, claims systems, and investment platforms.",
+      "Tested and optimized frontend modules using Jest, Karma, and Chrome DevTools to reduce regressions and enhance UI responsiveness."
     ],
     // Academic and learning achievements
     academic: [
-      "Bachelor's degree in Computer Science with focus on Software Engineering",
+      "Bachelor's degree in Electronics and Communication Engineering",
       "Completed various online certifications in web development and cloud technologies",
       "Regular participant in coding challenges and hackathons",
-      "Active contributor to open-source projects"
+      "Active contributor to open-source projects".
     ]
   },
 
@@ -66,6 +71,10 @@ export const aboutData = {
   // 5. Replace the icon URL in the skill object
   skills: [
     // Frontend Technologies
+    {
+      name: "HTML5",
+      icon: "<img src="https://devicon-website.vercel.app/api/html5/original.svg"></img>"
+    }
     {
       name: "React", // The name of the technology
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" // The icon URL
