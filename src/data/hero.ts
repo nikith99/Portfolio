@@ -32,7 +32,7 @@ export const heroData = {
 
   // Your professional role or title
   // This is typically your current job title or primary role
-  role: "Full Stack Enginner",
+  role: "UI/UX Developer",
 
   // A brief description about yourself
   // Keep this concise but engaging
@@ -49,7 +49,7 @@ export const heroData = {
     // Secondary CTA - usually a supporting action
     secondary: {
       text: "Download Resume", // Button text
-      link: "#Resumelink petu ekada " // Link to your resume (can be a URL or file path)
+      link: "https://docs.google.com/document/d/1tK90mcSDkPn76ivYgHqZs10m34MKvE7w/edit?usp=drive_link&ouid=112370990940083133449&rtpof=true&sd=true" // Link to your resume (can be a URL or file path)
     }
   }
 }; 
