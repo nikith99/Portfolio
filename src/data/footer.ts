@@ -18,5 +18,4 @@ export const footerData = {
   },
 
   // Footer Message (can include HTML if needed)
-  message: `Built with <a href="https://reactwind.com" target="_blank" rel="noreferrer" class="font-medium text-primary hover:underline">Reactwind</a>. Made with ❤️`
 }; 
