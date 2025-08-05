@@ -32,9 +32,9 @@ export const educationData = {
   education: [
     {
       type: "degree",
-      degree: "Bachelor's degree in Computer Science",
+      degree: "Bachelor's degree in Electronics and Communication Engineering",
       school: "University of Technology",
-      duration: "2016 - 2020",
+      duration: "2012 - 2016",
       achievements: [
         "Graduated with honors",
         "Completed coursework in Web Development, Database Systems, and Software Engineering",
@@ -55,9 +55,9 @@ export const educationData = {
   certifications: [
     {
       type: "certification",
-      name: "Full Stack Web Development",
+      name: "UI/UX Development",
       organization: "Udemy",
-      issuedDate: "2022",
+      issuedDate: "2020",
       description: "Comprehensive course covering modern web development technologies and best practices"
     },
     {
