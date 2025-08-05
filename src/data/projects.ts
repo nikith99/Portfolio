@@ -33,58 +33,16 @@ export const projectsData = {
   // - video: Path to project video demo
   projects: [
     {
-      title: "E-Commerce Platform",
-      description: "A modern e-commerce platform built with Next.js and TypeScript. Features include product catalog, shopping cart, user authentication, and secure payment processing. The platform offers a seamless shopping experience with responsive design and optimized performance.",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "MongoDB", "Vercel"],
-      demoLink: "https://demo-ecommerce.vercel.app",
-      githubLink: "https://github.com/yourusername/ecommerce-platform",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop",
-      video: "/videos/ecommerce-demo.mp4"
+      title: "Digital Banking UI Overhaul",
+      description: "I led the modernization of retail and commercial banking interfaces for Bank of America, crafting responsive and WCAG-compliant frontends using HTML, CSS, JavaScript, AngularJS, and TypeScript. The project involved rebuilding key modules like transaction dashboards, credit interfaces, and investment portals with a focus on accessibility, performance, and mobile-first design. I integrated secure RESTful APIs for real-time financial data, refactored legacy code into modular components, and collaborated across Agile squads using JIRA to ensure timely, high-quality UI delivery.",
+      technologies: ["HTML5","CSS3","JavaScript (ES6)","AngularJS (1.7)","TypeScript (4.x)","REST API","JIRA","Chrome DevTools","Bootstrap","GitHub","Agile Scrum"],
+      demoLink: "https://www.google.com/aclk?sa=L&ai=DChsSEwjjvPvRsPSOAxXvLtQBHRXuBAQYACICCAEQABoCb2E&ae=2&co=1&ase=2&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEZYlNRUN0H4JqcoF4Q1rD_BGxUQMQ7LdKWd0gg492jcSwCzhTBjbaUaAoFZEALw_wcB&cce=1&category=acrcp_v1_71&sig=AOD64_3UYKZRPSUgFhgVo4A360e7AKC8wg&q&nis=4&adurl&ved=2ahUKEwjw3vXRsPSOAxXI4skDHT3AJeIQ0Qx6BAgfEAE",
     },
     {
-      title: "Task Management App",
-      description: "A full-featured task management application that helps users organize their work and personal tasks. Includes features like task categorization, priority levels, due dates, and progress tracking. Built with React and Firebase for real-time updates.",
-      technologies: ["React", "Firebase", "Material-UI", "Redux", "TypeScript"],
-      demoLink: "https://task-manager-demo.vercel.app",
-      githubLink: "https://github.com/yourusername/task-manager",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop",
-      video: "/videos/task-manager-demo.mp4"
-    },
-    {
-      title: "AI Chat Assistant",
-      description: "An AI-powered chat assistant that helps users with various tasks. The application uses natural language processing to understand user queries and provide relevant responses. Features include conversation history, multiple AI models, and customizable responses.",
-      technologies: ["Python", "Streamlit", "OpenAI API", "LangChain", "FastAPI"],
-      demoLink: "https://ai-chat-demo.streamlit.app",
-      githubLink: "https://github.com/yourusername/ai-chat-assistant",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
-      video: "/videos/ai-chat-demo.mp4"
-    },
-    {
-      title: "Portfolio Website",
-      description: "A modern portfolio website built with Next.js and Tailwind CSS. Features include dark mode, responsive design, smooth animations, and a blog section. The website showcases projects, skills, and experience in an elegant and professional manner.",
-      technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "MDX", "Vercel"],
-      demoLink: "https://portfolio-demo.vercel.app",
-      githubLink: "https://github.com/yourusername/portfolio",
-      image: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=2064&auto=format&fit=crop",
-      video: "/videos/portfolio-demo.mp4"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A weather dashboard that provides real-time weather information and forecasts. Features include location-based weather data, 7-day forecast, weather maps, and customizable widgets. Built with React and integrated with a weather API.",
-      technologies: ["React", "OpenWeather API", "Chart.js", "Tailwind CSS", "Vercel"],
-      demoLink: "https://weather-dashboard-demo.vercel.app",
-      githubLink: "https://github.com/yourusername/weather-dashboard",
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=2070&auto=format&fit=crop",
-      video: "/videos/weather-demo.mp4"
-    },
-    {
-      title: "Recipe Sharing Platform",
-      description: "A social platform for sharing and discovering recipes. Users can create, share, and save recipes, follow other users, and interact through comments and likes. Features include recipe search, filtering, and a user-friendly interface.",
-      technologies: ["Next.js", "MongoDB", "NextAuth.js", "Tailwind CSS", "Vercel"],
-      demoLink: "https://recipe-platform-demo.vercel.app",
-      githubLink: "https://github.com/yourusername/recipe-platform",
-      image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=2064&auto=format&fit=crop",
-      video: "/videos/recipe-platform-demo.mp4"
-    }
-  ]
+      title: "Dynamic Web Console",
+      description: "I developed responsive, high-performance web interfaces using HTML, CSS, JavaScript, ReactJS, and Redux for enterprise-grade applications. My work focused on building pixel-perfect, reusable components, integrating RESTful APIs, and implementing predictable state management with Redux. I ensured full cross-browser compatibility, accessibility, and SEO optimization. Collaborating closely with backend teams, I resolved API integration challenges, debugged JSON payloads, and contributed to scalable UI architecture. The project prioritized modular design, performance, and maintainability across internal platforms.",
+      technologies: ["HTML5","CSS3","JavaScript ES6", "ReactJS 17+", "Redux", "REST API","JIRA v8","Chrome DevTools","Git", "VS Code","Node.js","Webpack"],
+      demoLink: "https://www.google.com/aclk?sa=L&ai=DChsSEwi80NDhsfSOAxWUQ_8BHXXdLiMYACICCAEQABoCbWQ&ae=2&co=1&ase=2&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEa-r0otB60-eHARJlb7yRg6E2S2_HTxzY3Jw7KVr3cnxR-7XaSuYAAaAi9JEALw_wcB&cce=1&category=acrcp_v1_71&sig=AOD64_0Cr3UFUjZTxmZioIoMheJN7mViFg&q&nis=4&adurl&ved=2ahUKEwiEkMrhsfSOAxUsjIkEHYnrOU8Q0Qx6BAgKEAE",
+     },
+   ]
 }; 
