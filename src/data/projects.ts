@@ -33,58 +33,49 @@ export const projectsData = {
   // - video: Path to project video demo
   projects: [
     {
-      title: "E-Commerce Platform",
-      description: "A modern e-commerce platform built with Next.js and TypeScript. Features include product catalog, shopping cart, user authentication, and secure payment processing. The platform offers a seamless shopping experience with responsive design and optimized performance.",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "MongoDB", "Vercel"],
-      demoLink: "https://demo-ecommerce.vercel.app",
-      githubLink: "https://github.com/yourusername/ecommerce-platform",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop",
-      video: "/videos/ecommerce-demo.mp4"
+      title: "Bank of America Digital Banking Platform",
+      description: "Led UI/UX modernization for retail and commercial banking interfaces. Developed responsive, WCAG-compliant frontends using HTML, CSS, JavaScript, AngularJS, and TypeScript. Integrated RESTful APIs for real-time financial data, streamlined legacy code, and optimized UI components. Implemented advanced JIRA workflows for sprint tracking and delivered intuitive, mobile-first frontend designs that boosted performance and user retention.",
+      technologies: ["HTML", "CSS", "JavaScript", "AngularJS", "TypeScript", "REST APIs", "JIRA", "WCAG"],
+      demoLink: "https://www.bankofamerica.com",
+      githubLink: null,
+      image: null,
+      video: null
     },
     {
-      title: "Task Management App",
-      description: "A full-featured task management application that helps users organize their work and personal tasks. Includes features like task categorization, priority levels, due dates, and progress tracking. Built with React and Firebase for real-time updates.",
-      technologies: ["React", "Firebase", "Material-UI", "Redux", "TypeScript"],
-      demoLink: "https://task-manager-demo.vercel.app",
-      githubLink: "https://github.com/yourusername/task-manager",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop",
-      video: "/videos/task-manager-demo.mp4"
+      title: "Cummins Enterprise Applications",
+      description: "Delivered responsive and high-performance web interfaces for various enterprise applications. Used HTML, CSS, JavaScript, ReactJS, and Redux to ensure pixel-perfect UI alignment and implement reusable components. Integrated multiple REST APIs, applied efficient state management using Redux, and ensured cross-browser compatibility. Optimized UI for accessibility and SEO while working collaboratively with backend teams.",
+      technologies: ["HTML", "CSS", "JavaScript", "ReactJS", "Redux", "REST APIs", "JIRA", "SEO"],
+      demoLink: "https://www.cummins.com",
+      githubLink: null,
+      image: null,
+      video: null
     },
     {
-      title: "AI Chat Assistant",
-      description: "An AI-powered chat assistant that helps users with various tasks. The application uses natural language processing to understand user queries and provide relevant responses. Features include conversation history, multiple AI models, and customizable responses.",
-      technologies: ["Python", "Streamlit", "OpenAI API", "LangChain", "FastAPI"],
-      demoLink: "https://ai-chat-demo.streamlit.app",
-      githubLink: "https://github.com/yourusername/ai-chat-assistant",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
-      video: "/videos/ai-chat-demo.mp4"
+      title: "Blue Cross Blue Shield Claims Dashboard",
+      description: "Worked on claims dashboard modernization initiative tailored for healthcare operations. Rebuilt frontend interface for provider claims using HTML, CSS, JavaScript, ReactJS, and Redux, ensuring WCAG compliance and performance efficiency. Implemented REST API integrations for real-time data visualization and claims filtering. Managed JIRA tickets throughout SDLC, collaborating with QA and backend engineers to enhance accessibility and maintain HIPAA alignment.",
+      technologies: ["HTML", "CSS", "JavaScript", "ReactJS", "Redux", "REST APIs", "WCAG", "HIPAA"],
+      demoLink: "https://www.bcbs.com",
+      githubLink: null,
+      image: null,
+      video: null
     },
     {
-      title: "Portfolio Website",
-      description: "A modern portfolio website built with Next.js and Tailwind CSS. Features include dark mode, responsive design, smooth animations, and a blog section. The website showcases projects, skills, and experience in an elegant and professional manner.",
-      technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "MDX", "Vercel"],
-      demoLink: "https://portfolio-demo.vercel.app",
-      githubLink: "https://github.com/yourusername/portfolio",
-      image: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=2064&auto=format&fit=crop",
-      video: "/videos/portfolio-demo.mp4"
+      title: "AT&T Customer-Facing Web Applications",
+      description: "Revamped multiple customer-facing web applications using HTML, CSS, JavaScript, AngularJS, and TypeScript, ensuring enhanced performance, accessibility, and scalability. Implemented interactive components and reusable widgets across various frontend layers, integrating REST APIs for seamless data communication. All applications adhered to WCAG 2.1 accessibility guidelines, ensuring compliance and superior UX for diverse user groups.",
+      technologies: ["HTML", "CSS", "JavaScript", "AngularJS", "TypeScript", "REST APIs", "WCAG 2.1"],
+      demoLink: "https://www.att.com",
+      githubLink: null,
+      image: null,
+      video: null
     },
     {
-      title: "Weather Dashboard",
-      description: "A weather dashboard that provides real-time weather information and forecasts. Features include location-based weather data, 7-day forecast, weather maps, and customizable widgets. Built with React and integrated with a weather API.",
-      technologies: ["React", "OpenWeather API", "Chart.js", "Tailwind CSS", "Vercel"],
-      demoLink: "https://weather-dashboard-demo.vercel.app",
-      githubLink: "https://github.com/yourusername/weather-dashboard",
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=2070&auto=format&fit=crop",
-      video: "/videos/weather-demo.mp4"
-    },
-    {
-      title: "Recipe Sharing Platform",
-      description: "A social platform for sharing and discovering recipes. Users can create, share, and save recipes, follow other users, and interact through comments and likes. Features include recipe search, filtering, and a user-friendly interface.",
-      technologies: ["Next.js", "MongoDB", "NextAuth.js", "Tailwind CSS", "Vercel"],
-      demoLink: "https://recipe-platform-demo.vercel.app",
-      githubLink: "https://github.com/yourusername/recipe-platform",
-      image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=2064&auto=format&fit=crop",
-      video: "/videos/recipe-platform-demo.mp4"
+      title: "Wipro Enterprise Web Applications",
+      description: "Worked on enterprise-level projects focused on building responsive web applications using HTML, CSS, JavaScript, AngularJS, TypeScript, and ReactJS. Architected frontends for scalability using Redux for state management and integrated with REST APIs for dynamic data rendering. Contributed to bug fixing, component creation, and code optimization. All user interfaces were built with performance and cross-browser compatibility in mind.",
+      technologies: ["HTML", "CSS", "JavaScript", "AngularJS", "TypeScript", "ReactJS", "Redux", "REST APIs"],
+      demoLink: "https://www.wipro.com",
+      githubLink: null,
+      image: null,
+      video: null
     }
   ]
 }; 

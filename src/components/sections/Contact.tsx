@@ -26,7 +26,7 @@ export function Contact() {
               Email Me
             </Button>
           </a>
-          <a href="tel:+13854649601" className="w-full md:w-auto">
+          <a href="tel:+917736696575" className="w-full md:w-auto">
             <Button
               variant="outline"
               className="w-full md:w-auto flex gap-2 justify-center"

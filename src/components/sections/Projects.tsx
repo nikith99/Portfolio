@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { projectsData } from "@/data/projects";
 
 const Projects = () => {
@@ -28,17 +28,11 @@ const Projects = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <Card className="h-full">
-                <video
-                  src={project.video}
-                  className="w-full h-64 object-cover rounded-t-lg"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                />
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
-                  <CardDescription>{project.description}</CardDescription>
+                  <CardDescription className="text-sm leading-relaxed">
+                    {project.description}
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
@@ -54,15 +48,7 @@ const Projects = () => {
                     <Button variant="outline" size="sm" asChild>
                       <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="mr-2 h-4 w-4" />
-                        Demo
-                      </a>
-                    </Button>
-                  )}
-                  {project.githubLink && (
-                    <Button variant="outline" size="sm" asChild>
-                      <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                        <Github className="mr-2 h-4 w-4" />
-                        Code
+                        Visit Website
                       </a>
                     </Button>
                   )}
