@@ -44,7 +44,7 @@ export const aboutData = {
       "Collaborated with cross-functional Agile teams using JIRA to deliver user-centric features on time, tracking sprints and resolving UI bugs.",
       "Ensured accessibility compliance (WCAG 2.1) by embedding semantic HTML, ARIA roles, and screen-reader-friendly design patterns.",
       "Developed dynamic, data-driven forms and dashboards for applications like loan portals, claims systems, and investment platforms.",
-      "Tested and optimized frontend modules using Jest, Karma, and Chrome DevTools to reduce regressions and enhance UI responsiveness."
+      "Tested and optimized frontend modules using Jest, Karma, and Chrome DevTools to reduce regressions and enhance UI responsiveness.".
     ],
     // Academic and learning achievements
     academic: [
