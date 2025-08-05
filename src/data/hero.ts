@@ -17,7 +17,7 @@
 export const heroData = {
   // The greeting message that appears at the top of the hero section
   // You can personalize this to match your style
-  greeting: "Hi, This is Sri. Great to see you here!",
+  greeting: "Hi, This is Nikith. Great to see you here!",
 
   // Your current work status
   // This can be used to show if you're available for work or not
@@ -32,7 +32,7 @@ export const heroData = {
 
   // Your professional role or title
   // This is typically your current job title or primary role
-  role: "Software Engineer",
+  role: "Full Stack Enginner",
 
   // A brief description about yourself
   // Keep this concise but engaging
@@ -49,7 +49,7 @@ export const heroData = {
     // Secondary CTA - usually a supporting action
     secondary: {
       text: "Download Resume", // Button text
-      link: "bit.ly/sriport" // Link to your resume (can be a URL or file path)
+      link: "#Resumelink petu ekada " // Link to your resume (can be a URL or file path)
     }
   }
 }; 
