@@ -57,7 +57,7 @@ export const experienceData = {
       responsibilities: [
         "I worked on a claims dashboard modernization initiative tailored for healthcare operations. I used HTML, CSS, JavaScript, ReactJS, and Redux to rebuild the frontend interface for provider claims, ensuring WCAG compliance and performance efficiency. REST API integrations were implemented for real-time data visualization and claims filtering. I managed JIRA tickets throughout the SDLC, collaborating with QA and backend engineers to enhance accessibility and maintain HIPAA alignment. Responsive design strategies and modular code practices ensured consistent cross-browser behavior. I improved frontend workflows by applying dynamic form validations, component reusability, and DOM event tracing across key views."
       ]
-    }
+    },
     {
       role: "Frontend UI Developer"
       Company:"AT&T"
@@ -66,7 +66,7 @@ export const experienceData = {
       Responsibilities: [
         "I revamped multiple customer-facing web applications using HTML, CSS, JavaScript, AngularJS, and TypeScript, ensuring enhanced performance, accessibility, and scalability. I implemented interactive components and reusable widgets across various frontend layers, integrating REST APIs for seamless data communication. The development was managed through Agile methodologies using JIRA, and all applications adhered to WCAG 2.1 accessibility guidelines, ensuring compliance and superior UX for diverse user groups. This role demanded meticulous code management and API orchestration across multi-browser support and responsive design principles."
         ]
-    }
+    },
     {
       role: "junoir UI Developer",
       company: "Wipro",
@@ -75,7 +75,6 @@ export const experienceData = {
       responsibilities: [
         "I worked on enterprise-level projects focused on building responsive web applications using HTML, CSS, JavaScript, AngularJS, TypeScript, and ReactJS. The frontends were architected for scalability using Redux for state management and integrated with REST APIs for dynamic data rendering. My contribution extended across bug fixing, component creation, and code optimization. Working in Agile teams, I maintained consistent collaboration using JIRA. All user interfaces were built with performance and cross-browser compatibility in mind, ensuring a seamless frontend experience and optimal delivery. I contributed to accessibility enhancements and adhered to W3C standards and coding best practices."
         ]
-    }
-
+    },
   ]
 }; 
