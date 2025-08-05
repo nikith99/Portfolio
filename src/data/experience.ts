@@ -60,7 +60,7 @@ export const experienceData = {
     },
     {
       role: "Frontend UI Developer",
-      Company:"AT&T",
+      Company: "AT&T",
       Location: "Hybrid",
       duration": "Dec 2018-Feb 2021",
       Responsibilities: [
@@ -68,7 +68,7 @@ export const experienceData = {
         ]
     },
     {
-      role: "junoir UI Developer",
+      role: "Junoir UI Developer",
       company: "Wipro",
       location: "Onsite",
       duration: "Jun 2016-Sep 2018",
