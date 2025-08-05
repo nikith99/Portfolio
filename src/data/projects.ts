@@ -32,18 +32,9 @@ export const projectsData = {
   // - image: Path to project screenshot/image
   // - video: Path to project video demo
   projects: [
-    {
-      title: "Bank of America Digital Banking Platform",
-      description: "Led UI/UX modernization for retail and commercial banking interfaces. Developed responsive, WCAG-compliant frontends using HTML, CSS, JavaScript, AngularJS, and TypeScript. Integrated RESTful APIs for real-time financial data, streamlined legacy code, and optimized UI components. Implemented advanced JIRA workflows for sprint tracking and delivered intuitive, mobile-first frontend designs that boosted performance and user retention.",
-      technologies: ["HTML", "CSS", "JavaScript", "AngularJS", "TypeScript", "REST APIs", "JIRA", "WCAG"],
-      demoLink: "https://www.bankofamerica.com",
-      githubLink: null,
-      image: null,
-      video: null
-    },
-    {
+   {
       title: "Cummins Enterprise Applications",
-      description: "Delivered responsive and high-performance web interfaces for various enterprise applications. Used HTML, CSS, JavaScript, ReactJS, and Redux to ensure pixel-perfect UI alignment and implement reusable components. Integrated multiple REST APIs, applied efficient state management using Redux, and ensured cross-browser compatibility. Optimized UI for accessibility and SEO while working collaboratively with backend teams.",
+      description: "I delivered responsive and high-performance web interfaces using HTML, CSS, JavaScript, ReactJS, and Redux for various enterprise applications. I ensured pixel-perfect UI alignment, implemented reusable components, and followed agile methodologies via JIRA. I integrated multiple REST APIs, applied efficient state management using Redux, and ensured cross-browser compatibility. The UI was optimized for accessibility and SEO. I worked collaboratively with backend teams to debug API responses, resolve JSON payload mismatches, and deploy new features with continuous feedback. My work emphasized scalable design, frontend architecture, and reusable patterns to modernize internal platforms.",
       technologies: ["HTML", "CSS", "JavaScript", "ReactJS", "Redux", "REST APIs", "JIRA", "SEO"],
       demoLink: "https://www.cummins.com",
       githubLink: null,
@@ -51,26 +42,17 @@ export const projectsData = {
       video: null
     },
     {
-      title: "Blue Cross Blue Shield Claims Dashboard",
+      title: "University of Illinois Springfield Claims Dashboard",
       description: "Worked on claims dashboard modernization initiative tailored for healthcare operations. Rebuilt frontend interface for provider claims using HTML, CSS, JavaScript, ReactJS, and Redux, ensuring WCAG compliance and performance efficiency. Implemented REST API integrations for real-time data visualization and claims filtering. Managed JIRA tickets throughout SDLC, collaborating with QA and backend engineers to enhance accessibility and maintain HIPAA alignment.",
       technologies: ["HTML", "CSS", "JavaScript", "ReactJS", "Redux", "REST APIs", "WCAG", "HIPAA"],
-      demoLink: "https://www.bcbs.com",
-      githubLink: null,
-      image: null,
-      video: null
-    },
-    {
-      title: "AT&T Customer-Facing Web Applications",
-      description: "Revamped multiple customer-facing web applications using HTML, CSS, JavaScript, AngularJS, and TypeScript, ensuring enhanced performance, accessibility, and scalability. Implemented interactive components and reusable widgets across various frontend layers, integrating REST APIs for seamless data communication. All applications adhered to WCAG 2.1 accessibility guidelines, ensuring compliance and superior UX for diverse user groups.",
-      technologies: ["HTML", "CSS", "JavaScript", "AngularJS", "TypeScript", "REST APIs", "WCAG 2.1"],
-      demoLink: "https://www.att.com",
+      demoLink: "https://www.uis.edu/",
       githubLink: null,
       image: null,
       video: null
     },
     {
       title: "Wipro Enterprise Web Applications",
-      description: "Worked on enterprise-level projects focused on building responsive web applications using HTML, CSS, JavaScript, AngularJS, TypeScript, and ReactJS. Architected frontends for scalability using Redux for state management and integrated with REST APIs for dynamic data rendering. Contributed to bug fixing, component creation, and code optimization. All user interfaces were built with performance and cross-browser compatibility in mind.",
+      description: "I worked on enterprise-level projects focused on building responsive web applications using HTML, CSS, JavaScript, AngularJS, TypeScript, and ReactJS. The frontends were architected for scalability using Redux for state management and integrated with REST APIs for dynamic data rendering. My contribution extended across bug fixing, component creation, and code optimization. Working in Agile teams, I maintained consistent collaboration using JIRA. All user interfaces were built with performance and cross-browser compatibility in mind, ensuring a seamless frontend experience and optimal delivery. I contributed to accessibility enhancements and adhered to W3C standards and coding best practices.",
       technologies: ["HTML", "CSS", "JavaScript", "AngularJS", "TypeScript", "ReactJS", "Redux", "REST APIs"],
       demoLink: "https://www.wipro.com",
       githubLink: null,
