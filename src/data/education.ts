@@ -34,6 +34,7 @@ export const educationData = {
       type: "degree",
       degree: "Masters degree in Management and Information Systems",
       school: "University of Illinois SpringField",
+      duration: "Jan 2024-May 2025",
       achievements: [
         "Graduated with honors",
         "Completed coursework in Web Development, Database Systems, and Software Engineering",
