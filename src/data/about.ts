@@ -74,7 +74,7 @@ export const aboutData = {
     {
       name: "HTML5",
       icon: "https://devicon-website.vercel.app/api/html5/original.svg"
-    }
+    },
     {
       name: "React", // The name of the technology
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" // The icon URL
