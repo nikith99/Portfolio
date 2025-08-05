@@ -15,7 +15,7 @@ export function Contact() {
 
         <div className="flex flex-col gap-4 w-full max-w-sm md:flex-row md:max-w-2xl md:justify-center">
           <a
-            href="mailto:nandinimorla100@gmail.com"
+            href="mailto:nikith290699@gmail.com"
             className="w-full md:w-auto"
           >
             <Button
@@ -26,7 +26,7 @@ export function Contact() {
               Email Me
             </Button>
           </a>
-          <a href="tel:+917736696575" className="w-full md:w-auto">
+          <a href="tel:+17736696575" className="w-full md:w-auto">
             <Button
               variant="outline"
               className="w-full md:w-auto flex gap-2 justify-center"
@@ -39,7 +39,7 @@ export function Contact() {
 
         <div className="flex justify-center gap-6 mt-4">
           <a
-            href="https://linkedin.com/in/morla-nandini"
+            href="https://www.linkedin.com/in/sri-nikith-11b92036a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMfc6qz3aQD%2BgHMOu%2BzHw3Q%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
@@ -47,15 +47,7 @@ export function Contact() {
             <Linkedin size={28} />
           </a>
           <a
-            href="https://instagram.com/nandinimorla"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-primary transition-colors"
-          >
-            <Instagram size={28} />
-          </a>
-          <a
-            href="https://drive.google.com/file/d/1KLexDkcr9fSnIMektSv27unj5w6Zwkhm/view?usp=drive_link"
+            href="https://docs.google.com/document/d/1tK90mcSDkPn76ivYgHqZs10m34MKvE7w/edit?usp=drive_link&ouid=112370990940083133449&rtpof=true&sd=true"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-primary transition-colors"
