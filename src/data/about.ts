@@ -73,7 +73,7 @@ export const aboutData = {
     // Frontend Technologies
     {
       name: "HTML5",
-      icon: "<img src="https://devicon-website.vercel.app/api/html5/original.svg"></img>"
+      icon: "https://devicon-website.vercel.app/api/html5/original.svg"
     }
     {
       name: "React", // The name of the technology
