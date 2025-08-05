@@ -32,9 +32,18 @@ export const educationData = {
   education: [
     {
       type: "degree",
+      degree: "Masters degree in Management and Information Systems",
+      school: "University of Illinois SpringField",
+      achievements: [
+        "Graduated with honors",
+        "Completed coursework in Web Development, Database Systems, and Software Engineering",
+        "Participated in various coding competitions and hackathons"
+      ]
+    },
+    {
+      type: "degree",
       degree: "Bachelor's degree in Electronics and Communication Engineering",
       school: "University of Technology",
-      duration: "2012 - 2016",
       achievements: [
         "Graduated with honors",
         "Completed coursework in Web Development, Database Systems, and Software Engineering",
@@ -57,21 +66,21 @@ export const educationData = {
       type: "certification",
       name: "UI/UX Development",
       organization: "Udemy",
-      issuedDate: "2020",
+      issuedDate: "2021",
       description: "Comprehensive course covering modern web development technologies and best practices"
     },
     {
       type: "certification",
       name: "AWS Certified Developer - Associate",
       organization: "Amazon Web Services",
-      issuedDate: "2021",
+      issuedDate: "2022",
       description: "Validated expertise in developing, deploying, and debugging cloud-based applications using AWS"
     },
     {
       type: "certification",
       name: "React Developer Certification",
       organization: "Meta",
-      issuedDate: "2021",
+      issuedDate: "2022",
       description: "Professional certification in React development and best practices"
     }
   ]
