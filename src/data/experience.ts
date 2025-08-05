@@ -60,15 +60,15 @@ export const experienceData = {
     },
     {
       role: "Frontend UI Developer",
-      Company: "AT&T",
-      Location: "Hybrid",
-      duration": "Dec 2018-Feb 2021",
-      Responsibilities: [
+      company: "AT&T",
+      location: "Hybrid",
+      duration: "Dec 2018-Feb 2021",
+      responsibilities: [
         "I revamped multiple customer-facing web applications using HTML, CSS, JavaScript, AngularJS, and TypeScript, ensuring enhanced performance, accessibility, and scalability. I implemented interactive components and reusable widgets across various frontend layers, integrating REST APIs for seamless data communication. The development was managed through Agile methodologies using JIRA, and all applications adhered to WCAG 2.1 accessibility guidelines, ensuring compliance and superior UX for diverse user groups. This role demanded meticulous code management and API orchestration across multi-browser support and responsive design principles."
         ]
     },
     {
-      role: "Junoir UI Developer",
+      role: "Junior UI Developer",
       company: "Wipro",
       location: "Onsite",
       duration: "Jun 2016-Sep 2018",
