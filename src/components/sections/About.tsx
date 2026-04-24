@@ -1,244 +1,95 @@
-"use client";
-import { motion } from "framer-motion";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-import { aboutData } from "@/data/about";
-import { experienceData } from "@/data/experience";
-import { educationData } from "@/data/education";
+"use client"
 
-interface BentoGridItemProps {
-  name: string;
-  icon: string;
-  className?: string;
+import { motion } from "framer-motion"
+import { MapPin, Briefcase, GraduationCap, Award } from "lucide-react"
+import { aboutData } from "@/data/about"
+
+const fadeUp = {
+  hidden:  { opacity: 0, y: 24 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] as any } },
+}
+const stagger = {
+  hidden:  {},
+  visible: { transition: { staggerChildren: 0.1 } },
 }
 
-const BentoGridItem = ({ name, icon, className }: BentoGridItemProps) => {
+const info = [
+  { icon: MapPin,        label: "Location",       value: "Indianapolis, IN" },
+  { icon: Briefcase,     label: "Current Role",   value: "DevOps Engineer @ Cummins Inc" },
+  { icon: GraduationCap, label: "Education",      value: "M.S. Management Information Systems" },
+  { icon: Award,         label: "Certifications", value: "AWS CCP  ·  AWS Developer Associate" },
+]
+
+export default function About() {
   return (
-    <div
-      className={cn(
-        "group relative flex flex-col items-center justify-center overflow-hidden rounded-lg border bg-background/50 p-4 backdrop-blur transition-all hover:bg-background/60",
-        className
-      )}
-    >
-      <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-lg bg-background/50 backdrop-blur">
-        <img src={icon} alt={name} className="h-8 w-8" />
-      </div>
-      <div className="mt-2 text-center">
-        <p className="text-sm font-medium">{name}</p>
-      </div>
-    </div>
-  );
-};
-
-const About = () => {
-  const [activeSection, setActiveSection] = useState<
-    "experience" | "education"
-  >("experience");
-
-  return (
-    <section id="about" className="relative py-20 w-full overflow-x-hidden">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(45%_45%_at_50%_50%,var(--tw-gradient-from)_0%,var(--tw-gradient-to)_100%)] from-purple-900/20 to-transparent dark:from-purple-900/40" />
-      <div className="container mx-auto px-4 w-full max-w-[100vw]">
+    <section id="about" className="py-28" style={{ background: "#09090b" }}>
+      <div className="max-w-6xl mx-auto px-6">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="mb-12"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-80px" }}
+          variants={stagger}
+          className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start"
         >
-          <h2 className="text-center text-3xl font-bold">About Me</h2>
-        </motion.div>
+          {/* Left */}
+          <div>
+            <motion.p variants={fadeUp} className="section-label mb-3">About Me</motion.p>
+            <motion.h2 variants={fadeUp} className="text-3xl md:text-4xl font-bold text-slate-100 mb-7 leading-tight">
+              Turning complexity into{" "}
+              <span className="gradient-text">reliable infrastructure</span>
+            </motion.h2>
 
-        {/* Introduction Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          viewport={{ once: true }}
-          className="mb-16 text-center"
-        >
-          <div className="mx-auto max-w-3xl space-y-4">
-            {aboutData.introduction.paragraphs.map((paragraph, index) => (
-              <p key={index} className="text-lg leading-relaxed text-muted-foreground">
-                {paragraph}
-              </p>
+            {aboutData.introduction.paragraphs.map((para, i) => (
+              <motion.p key={i} variants={fadeUp} className="text-slate-400 text-sm leading-relaxed mb-4">
+                {para}
+              </motion.p>
             ))}
 
-            {/* Key Achievements Section */}
-            <div className="mt-8">
-              <div className="grid gap-6 md:grid-cols-2">
-                <div className="rounded-lg bg-background/50 p-6 backdrop-blur">
-                  <h4 className="mb-4 text-xl font-semibold">
-                    Recent Highlights
-                  </h4>
-                  <ul className="space-y-2 text-left text-muted-foreground">
-                    {aboutData.highlights.recent.map((highlight, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="mr-2">•</span>
-                        <span>{highlight}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="rounded-lg bg-background/50 p-6 backdrop-blur">
-                  <h4 className="mb-4 text-xl font-semibold">
-                    Academic Achievements
-                  </h4>
-                  <ul className="space-y-2 text-left text-muted-foreground">
-                    {aboutData.highlights.academic.map((achievement, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="mr-2">•</span>
-                        <span>{achievement}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            {/* Collaboration Statement */}
-            <p className="mt-6 text-lg leading-relaxed text-muted-foreground font-semibold">
+            <motion.blockquote
+              variants={fadeUp}
+              className="mt-6 pl-4 border-l-2 border-blue-500/40 text-slate-500 text-sm leading-relaxed italic"
+            >
               {aboutData.introduction.collaboration}
-            </p>
+            </motion.blockquote>
           </div>
-        </motion.div>
 
-        {/* Skills Section */}
-        <div className="mb-20">
-          <h3 className="mb-8 text-center text-2xl font-semibold">Skills</h3>
-          <div className="grid grid-cols-3 gap-4 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
-            {aboutData.skills.map((skill) => (
-              <BentoGridItem
-                key={skill.name}
-                name={skill.name}
-                icon={skill.icon}
-              />
-            ))}
-          </div>
-        </div>
-
-        {/* New Toggle Section */}
-        <div className="mb-8 flex flex-col items-center">
-          <div className="inline-flex rounded-lg border p-1 bg-background/50 backdrop-blur">
-            <Button
-              variant={activeSection === "experience" ? "default" : "ghost"}
-              className="relative px-6"
-              onClick={() => setActiveSection("experience")}
-            >
-              Experience
-            </Button>
-            <Button
-              variant={activeSection === "education" ? "default" : "ghost"}
-              className="relative px-6"
-              onClick={() => setActiveSection("education")}
-            >
-              Education
-            </Button>
-          </div>
-        </div>
-
-        {/* Updated Experience & Education Section */}
-        <motion.div
-          key={activeSection}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -20 }}
-          transition={{ duration: 0.3 }}
-          className="max-w-3xl mx-auto"
-        >
-          <div className="space-y-4">
-            {activeSection === "experience" ? (
-              experienceData.experience.map((item, index) => (
-                <Card
-                  key={index}
-                  className="border-none bg-background/50 dark:bg-background/20 shadow-xl backdrop-blur transition-all hover:bg-background/60"
-                >
-                  <CardHeader>
-                    <CardTitle className="text-xl">{item.role}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="font-medium">{item.company}</p>
-                    <p className="text-sm text-muted-foreground">
-                      {item.duration}
-                    </p>
-                    <div className="mt-4 space-y-2">
-                      {item.responsibilities.map((responsibility, i) => (
-                        <p key={i} className="text-sm text-muted-foreground">
-                          • {responsibility}
-                        </p>
-                      ))}
+          {/* Right */}
+          <motion.div variants={stagger} className="space-y-3">
+            {/* Info card */}
+            <motion.div variants={fadeUp} className="card-base rounded-xl p-6">
+              <p className="section-label mb-5">Quick Info</p>
+              <div className="space-y-4">
+                {info.map(({ icon: Icon, label, value }) => (
+                  <div key={label} className="flex items-start gap-3">
+                    <div className="w-7 h-7 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <Icon size={13} className="text-blue-400" />
                     </div>
-                  </CardContent>
-                </Card>
-              ))
-            ) : (
-              <>
-                <h3 className="mb-6 text-xl font-semibold">Education</h3>
-                <div className="space-y-4">
-                  {educationData.education.map((item, index) => (
-                    <Card
-                      key={index}
-                      className="border-none bg-background/50 dark:bg-background/20 shadow-xl backdrop-blur transition-all hover:bg-background/60"
-                    >
-                      <CardHeader>
-                        <CardTitle className="text-xl">{item.degree}</CardTitle>
-                      </CardHeader>
-                      <CardContent>
-                        <p className="font-medium">{item.school}</p>
-                        <p className="text-sm text-muted-foreground">
-                          {item.duration}
-                        </p>
-                        {item.achievements.length > 0 && (
-                          <div className="mt-4 space-y-2">
-                            {item.achievements.map((achievement, i) => (
-                              <p
-                                key={i}
-                                className="text-sm text-muted-foreground"
-                              >
-                                • {achievement}
-                              </p>
-                            ))}
-                          </div>
-                        )}
-                      </CardContent>
-                    </Card>
-                  ))}
-                </div>
+                    <div>
+                      <p className="text-[10px] text-slate-600 uppercase tracking-wider mb-0.5">{label}</p>
+                      <p className="text-slate-200 text-sm">{value}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
 
-                <h3 className="mb-6 mt-8 text-xl font-semibold">
-                  Certifications
-                </h3>
-                <div className="space-y-4">
-                  {educationData.certifications.map((cert, index) => (
-                    <Card
-                      key={index}
-                      className="border-none bg-background/50 dark:bg-background/20 shadow-xl backdrop-blur transition-all hover:bg-background/60"
-                    >
-                      <CardHeader>
-                        <CardTitle className="text-xl">{cert.name}</CardTitle>
-                      </CardHeader>
-                      <CardContent>
-                        <p className="font-medium">{cert.organization}</p>
-                        <p className="text-sm text-muted-foreground">
-                          {cert.issuedDate}
-                        </p>
-                        <p className="mt-2 text-sm text-muted-foreground">
-                          {cert.description}
-                        </p>
-                      </CardContent>
-                    </Card>
-                  ))}
+            {/* Stats */}
+            <motion.div variants={fadeUp} className="grid grid-cols-3 gap-3">
+              {[
+                { value: "4+", label: "Years" },
+                { value: "3",  label: "Companies" },
+                { value: "2",  label: "AWS Certs" },
+              ].map((s) => (
+                <div key={s.label}
+                  className="card-base rounded-xl p-4 text-center">
+                  <p className="text-2xl font-bold text-slate-100">{s.value}</p>
+                  <p className="text-[11px] text-slate-600 mt-1">{s.label}</p>
                 </div>
-              </>
-            )}
-          </div>
+              ))}
+            </motion.div>
+          </motion.div>
         </motion.div>
       </div>
     </section>
-  );
-};
-
-export default About;
+  )
+}

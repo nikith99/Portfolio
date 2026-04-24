@@ -1,13 +1,14 @@
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer className="py-6 w-full overflow-x-hidden">
-      <div className="container mx-auto flex flex-col items-center justify-center gap-4 md:flex-row md:gap-6 w-full max-w-[100vw]">
-        <p className="text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-          Designed and developed by Nikith with ❤️ by <a href="https://reactwind.com" target="_blank" rel="noopener noreferrer" className="font-medium text-primary hover:underline">ReactWind</a>
+    <footer className="py-7 border-t border-white/[0.05]" style={{ background: "#09090b" }}>
+      <div className="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-2">
+        <p className="text-slate-600 text-sm">
+          © {new Date().getFullYear()} Sri Nikith Poddaturi
+        </p>
+        <p className="text-slate-700 text-xs font-mono">
+          Next.js · Tailwind · Framer Motion
         </p>
       </div>
     </footer>
-  );
-};
-
-export default Footer;
+  )
+}

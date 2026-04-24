@@ -22,11 +22,11 @@ export const aboutData = {
   introduction: {
     // Add or remove paragraphs as needed
     paragraphs: [
-      "I’m a UI/UX Developer with over 4 years of professional experience designing and developing responsive, accessible, and high-performance web applications. I specialize in HTML5, CSS3, JavaScript (ES6+), ReactJS, AngularJS, TypeScript, Redux, and REST API integrations, delivering intuitive, user-focused solutions for sectors including banking, healthcare, education, and IT.",
-      "My expertise includes modernizing legacy codebases, ensuring WCAG 2.1 compliance, and optimizing performance for cross-browser, mobile-first experiences. I excel in Agile-Scrum environments, collaborating with designers, backend engineers, and stakeholders to transform complex requirements into pixel-perfect, scalable UIs. Passionate about usability, I focus on component reusability, secure workflows, and performance optimization to create impactful digital products."
+      "I’m a DevOps & Cloud Infrastructure Engineer with 4+ years of progressive experience across the financial services and manufacturing industries. I’ve grown from supporting enterprise DevOps teams at Wipro to independently owning all cloud operations at Sundaram Finance, and currently designing and leading enterprise-scale AWS infrastructure projects alongside US-based teams at Cummins Inc.",
+      "I bring strong hands-on expertise in AWS, Terraform, Docker, Kubernetes, Jenkins, Ansible, Python, ELK Stack, Datadog, and Kafka across multi-cloud environments including Azure and GCP. I hold AWS Certified Cloud Practitioner and AWS Certified Developer certifications, and consistently deliver secure, scalable, and production-ready infrastructure that helps engineering teams move faster and operate more reliably."
     ],
     // Your collaboration message - feel free to modify this text
-    collaboration: "I'm always excited to collaborate on interesting projects and share knowledge with the developer community. Whether it's building new features, optimizing performance, or solving complex problems, I'm ready to contribute my skills and learn from others."
+    collaboration: "I’m always excited to collaborate on infrastructure challenges, automation projects, and cloud architecture initiatives. Whether it’s building CI/CD pipelines, designing fault-tolerant AWS environments, or scripting automation solutions, I’m ready to contribute and keep learning."
   },
 
   // HIGHLIGHTS SECTION
@@ -36,24 +36,24 @@ export const aboutData = {
   highlights: {
     // Recent professional achievements
     recent: [
-      "4+ years in UI/UX development across banking, healthcare, education, and IT domains.",
-      "Proficient in HTML5, CSS3, JavaScript (ES6+), ReactJS, AngularJS, TypeScript, Redux, and RESTful APIs.",
-      "Delivered WCAG 2.1-compliant and HIPAA-aligned solutions for enterprise and financial platforms.",
-      "Migrated legacy AngularJS codebases to modern ReactJS + TypeScript stacks, reducing tech debt.",
-      "Built component-based architectures ensuring reusability, maintainability, and scalability.",
-      "Integrated multiple REST APIs for real-time dashboards, claims processing, and secure banking transactions.",
-      "Applied Redux for predictable state management in form-heavy and data-driven applications.",
-      "Skilled in Figma and Adobe XD for translating wireframes into pixel-perfect UIs.",
-      "Strong Agile-Scrum experience with JIRA for sprint planning, backlog management, and bug tracking.",
-      "Delivered projects for organizations like Cummins, University of Illinois Springfield, and Wipro."
+      "4+ years of DevOps & cloud engineering experience across financial services and manufacturing industries.",
+      "Designed and managed enterprise-scale AWS infrastructure (EC2, VPC, EKS, Lambda, RDS, S3, CloudFront) using Terraform, CloudFormation, and AWS SAM.",
+      "Built and maintained end-to-end Jenkins CI/CD pipelines with GitOps principles, JFrog Artifactory, Maven, Ant, and Gradle.",
+      "Led containerization and orchestration of microservices using Docker, Kubernetes (EKS), Helm, and OpenShift.",
+      "Automated infrastructure and security compliance across Linux and Windows environments using Ansible, Chef, and Puppet.",
+      "Architected enterprise observability platforms with CloudWatch, Datadog, Grafana, Prometheus, Splunk, and ELK Stack.",
+      "Developed automation scripts in Python, Bash, PowerShell, Go, and integrated Kafka for event-driven pipelines.",
+      "Implemented Terraform and CloudFormation IaC at Sundaram Finance, eliminating manual provisioning and optimizing costs.",
+      "Holds AWS Certified Cloud Practitioner and AWS Certified Developer – Associate certifications.",
+      "Experienced with multi-cloud environments including AWS, Azure, and GCP across active enterprise projects."
     ],
     // Academic and learning achievements
     academic: [
-      "Masters degree in Managament and Information Systems",
-      "Bachelor's degree in Electronics and Communication Engineering",
-      "Completed various online certifications in web development and cloud technologies",
-      "Regular participant in coding challenges and hackathons",
-      "Active contributor to open-source projects"
+      "Master's Degree in Management Information Systems — University of Illinois at Springfield (Jan 2024 – May 2025)",
+      "Bachelor's Degree in Electronics and Communication Engineering",
+      "AWS Certified Cloud Practitioner",
+      "AWS Certified Developer – Associate",
+      "Active contributor to open-source DevOps tools and platforms"
     ]
   },
 
@@ -72,78 +72,77 @@ export const aboutData = {
   // 4. Copy the SVG URL
   // 5. Replace the icon URL in the skill object
   skills: [
-    // Frontend Technologies
     {
-      name: "React", // The name of the technology
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" // The icon URL
+      name: "AWS",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png"
     },
     {
-      name: "Next.js",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"
+      name: "Terraform",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg"
     },
     {
-      name: "JavaScript",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+      name: "Docker",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
     },
     {
-      name: "TypeScript",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+      name: "Kubernetes",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg"
     },
     {
-      name: "HTML5",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+      name: "Jenkins",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg"
     },
     {
-      name: "CSS3",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+      name: "Ansible",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original.svg"
     },
     {
-      name: "Tailwind CSS",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
+      name: "Python",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
     },
     {
-      name: "Node.js",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
-    },
-    {
-      name: "Express",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
-    },
-    {
-      name: "JIRA",
-      icon: "https://devicon-website.vercel.app/api/jira/original.svg"
-    },
-    {
-      name: "Figma",
-      icon: "https://devicon-website.vercel.app/api/figma/original.svg"
+      name: "Linux",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
     },
     {
       name: "Git",
       icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
     },
     {
-      name: "AngularJS",
-      icon: "https://devicon-website.vercel.app/api/angularjs/original.svg"
+      name: "Grafana",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/grafana/grafana-original.svg"
     },
     {
-      name: "AWS",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png"
+      name: "Prometheus",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original.svg"
     },
     {
-      name: "Jest",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg"
+      name: "Azure",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg"
     },
     {
-      name: "Redux",
-      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+      name: "GCP",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg"
     },
     {
-      name: "jenkins",
-      icon: "https://devicon-website.vercel.app/api/jenkins/line.svg"
+      name: "Bash",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg"
     },
     {
-      name: "Webpack",
-      icon: "https://devicon-website.vercel.app/api/webpack/original.svg"
+      name: "GitHub",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"
+    },
+    {
+      name: "MySQL",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+    },
+    {
+      name: "MongoDB",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+    },
+    {
+      name: "Kafka",
+      icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg"
     }
   ]
 }; 

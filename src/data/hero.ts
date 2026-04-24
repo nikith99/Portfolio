@@ -32,11 +32,11 @@ export const heroData = {
 
   // Your professional role or title
   // This is typically your current job title or primary role
-  role: "UI/UX Developer",
+  role: "DevOps & Cloud Infrastructure Engineer",
 
   // A brief description about yourself
   // Keep this concise but engaging
-  description: "I'm a problem-solver by day, code-slinger by night. Enjoy exploring my projects!🚀✨.",
+  description: "Building secure, scalable, and production-ready cloud infrastructure that helps engineering teams move faster and operate more reliably.",
 
   // Call-to-Action (CTA) buttons
   // These are the main buttons in your hero section
@@ -49,7 +49,7 @@ export const heroData = {
     // Secondary CTA - usually a supporting action
     secondary: {
       text: "Download Resume", // Button text
-      link: "https://docs.google.com/document/d/1tK90mcSDkPn76ivYgHqZs10m34MKvE7w/edit?usp=drive_link&ouid=112370990940083133449&rtpof=true&sd=true" // Link to your resume (can be a URL or file path)
+      link: "https://docs.google.com/document/d/1OgPGv5f3o-RekkLLeyk2-N7BeDf033f5/edit?usp=drive_link&ouid=101923634440285954914&rtpof=true&sd=true" // Link to your resume (can be a URL or file path)
     }
   }
 }; 
