@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/sonner";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
-import { Contact } from "@/components/sections/Contact";
+import Contact from "@/components/sections/Contact";
 import Projects from "@/components/sections/Projects";
 import Footer from "@/components/sections/Footer";
 
